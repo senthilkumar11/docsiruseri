@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+<style>
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.button { 
+            margin: 30px;
+            padding: 1em;  
+                    border: 0;  
+                    font-size: 0.8rem;  
+                    color: white;  
+                    border-radius: 0.5em;  
+                    background: blue
+                    }
+
+
+        .button:hover {  
+            box-shadow : gray 0px 10px 10px;
+            cursor: pointer;
+            /*box-shadow: inset 0 0 0.5em lightblue, 
+                inset 0 0.5em 1em darkblue;*/
+                }
+
+.form label {
+    padding-right: 15px;
+}
+.form li{
+    list-style-type: none;
+    padding: 20px;
+    border-bottom: 1px solid grey
+}
+
+input[type=text], input[type=date], input[type=email] {
+    width: 220px;
+    height: 19px;
+    box-shadow: 0px 0px 3px darkblue,
+                0px 10px 10px lightblue inset;
+}
+
+.form input[type=radio]{
+    width: 20px;
+}
+
+.form select {
+    width: 320px;
+    height: 29px;
+}
+
+
+input:required {
+    background: url(Red.png) no-repeat 99% 50%;
+}
+
+</style>
+
+</head>
+<body>
+
+<form action="index.html" class="form" onsubmit="return validateComments()" >
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <li>
+        <label for="name" >Name</label>
+        <input type="text" id="name" name="name" title="Please enter name with 8 characters"
+               pattern="[A-Za-z]{2,50}" placeholder="between 2 and 50 char" required autofocus>
+</li><li>
+        <label for="password" >Last Name</label>
+        <input type="text" id="password" name="password"
+               placeholder="atleast 1 specialchar/digit/number"
+               title="Enter password with size of 10 which contains atleast one capital letter, Special character and digit" pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{8,10})" required >
+    </li><li>
+        <label for="contact" >Phone no</label>
+        <input type="text" required id="contact" oninput="validateComments(this)" >
+    </li><li>
+        <label for="dob" required>Date of Birth</label>
+        <input type="date" id="dob" >
+    </li><li>
+        <label for="email" required>E-Mail</label>
+        <input type="email" id="email" required>
+
+    </li><li>
+        <label for="Job Type" >Job Type</label>
+        <select id="Job Type">
+            <option value="male">Self Employment</option>
+            <option value="Salaried">Salaried</option>
+            <option value="Student">Student</option>
+            <option value="Retired">Retired</option>
+        </select>
+
+    </li><li>
+        <label >Gender</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">feMale
+    </li><li>
+        <label for="age" >Age</label>
+        <input type="number" id="age" min="10" max="100" required>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Company Information</legend>
+        <li>
+        <label for="companyname">Company Name</label>
+        <input type="text" id="companyname" name="company">
+        </li><li>
+        <label for="websiteurl" >Company Websit Url</label>
+        <input type="url" id="websiteurl" >
+    </li>
+    </fieldset>
+    <fieldset>
+        <legend>Hobby</legend>
+       <li>
+        <label>Favourite Hobbies</label>
+        <input type="checkbox" name="hobby" value="reading book"/>Reading book<br>
+        <input type="checkbox" name="hobby" value="Riding"/>Riding Bike<br>
+        <input type="checkbox" name="hobby" value="travelling"/>Travelling new places<br>
+        <input type="checkbox" name="hobby" value="treking"/>Treking mountain<br>
+        <input type="checkbox" name="hobby" value="fishing"/>Fishing<br>
+
+       </li><li>
+
+        <datalist id="movieList">
+            <option>Amelia</option>
+            <option>12 Angry men</option>
+            <option>Pulp Fiction</option>
+            <option>The Departed</option>
+        </datalist>
+    </li><li>
+        <label for="FavouriteMovie">Favourite Movie
+        </label>
+        <input id="FavouriteMovie" type="text" list="movieList" multiple>
+    </li><li>
+        <label for="favouriteColor">favouriteColor
+        </label>
+        <input id="favouriteColor" type="color">
+    </li><li>
+        <label for="Likes">Feedback in range  1 to 10(highest)
+        </label>
+        <input id="Likes" type="range" min="1" max="10">
+    </fieldset>
+    </li>
+    <input type="submit" class="button">
+</form>
+</body>
+</html>
