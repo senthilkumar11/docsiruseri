@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T15:19:44.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Isto5apDfVIlN9H7A6mR" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T16:14:07.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="9CnG_A0niIEuycvU4UCN" version="14.6.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="698" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -120,6 +120,12 @@
         </mxCell>
         <mxCell id="3HnHHPOisLPz_FVJ4Kmp-55" value="Product offer &amp;amp; promotion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=none;" vertex="1" parent="1">
           <mxGeometry x="35" y="370" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3HnHHPOisLPz_FVJ4Kmp-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=none;exitX=0.975;exitY=0.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3HnHHPOisLPz_FVJ4Kmp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HnHHPOisLPz_FVJ4Kmp-56" value="Get Product Info&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
