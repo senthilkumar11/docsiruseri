@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T08:31:16.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="J-4Y1JrbQVUDfhqO2VWG" version="14.6.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-23T09:18:12.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="DTWRH3-tfmql5OVz67oS" version="14.6.5" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="838" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -729,6 +729,60 @@
         </mxCell>
         <mxCell id="x7RIyDLnHB60l9q_V5CB-32" value="ProductResponse" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=none;" vertex="1" parent="XcnSWs6Ap9QUVY_Goykz-1">
           <mxGeometry x="255" y="1390" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-aIQ84BIAIYts0krUwpe" name="Page-4">
+    <mxGraphModel dx="838" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="_GPYYvyDpfEl9rha_GeI-0" />
+        <mxCell id="_GPYYvyDpfEl9rha_GeI-1" parent="_GPYYvyDpfEl9rha_GeI-0" />
+        <mxCell id="_GPYYvyDpfEl9rha_GeI-3" value="" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontColor=none;strokeColor=#000000;fillColor=#FFFFFF;size=50;direction=east;" vertex="1" parent="_GPYYvyDpfEl9rha_GeI-1">
+          <mxGeometry x="180" y="1580" width="40" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_GPYYvyDpfEl9rha_GeI-5" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=none;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="_GPYYvyDpfEl9rha_GeI-1">
+          <mxGeometry x="330" y="1590" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_GPYYvyDpfEl9rha_GeI-6" value=":PromotionService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=none;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="_GPYYvyDpfEl9rha_GeI-1">
+          <mxGeometry x="330" y="1590" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_GPYYvyDpfEl9rha_GeI-7" value="Promotion Cron Job" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=none;" vertex="1" parent="_GPYYvyDpfEl9rha_GeI-1">
+          <mxGeometry x="140" y="1560" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="87C5WqZoHhaRskBXKT4H-2" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=#ffffff;fontColor=none;strokeColor=#000000;align=center;exitX=-0.178;exitY=0.981;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="_GPYYvyDpfEl9rha_GeI-1" target="_GPYYvyDpfEl9rha_GeI-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="307" y="1726" as="targetPoint" />
+            <mxPoint x="375.22" y="1679.4299999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="87C5WqZoHhaRskBXKT4H-1" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=#ffffff;strokeColor=#000000;align=center;noLabel=1;fontColor=none;" edge="1" parent="_GPYYvyDpfEl9rha_GeI-1" source="_GPYYvyDpfEl9rha_GeI-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="307" y="1650" as="sourcePoint" />
+            <mxPoint x="377" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="87C5WqZoHhaRskBXKT4H-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=none;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="_GPYYvyDpfEl9rha_GeI-1">
+          <mxGeometry x="510" y="1650" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="87C5WqZoHhaRskBXKT4H-4" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=#ffffff;fontColor=none;strokeColor=#000000;align=center;" edge="1" target="87C5WqZoHhaRskBXKT4H-3" parent="_GPYYvyDpfEl9rha_GeI-1" source="_GPYYvyDpfEl9rha_GeI-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="87C5WqZoHhaRskBXKT4H-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;labelBackgroundColor=#ffffff;strokeColor=#000000;align=center;noLabel=1;fontColor=none;" edge="1" source="87C5WqZoHhaRskBXKT4H-3" parent="_GPYYvyDpfEl9rha_GeI-1" target="_GPYYvyDpfEl9rha_GeI-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="87C5WqZoHhaRskBXKT4H-6" value=":Mirakl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=none;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="_GPYYvyDpfEl9rha_GeI-1">
+          <mxGeometry x="465" y="1580" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="87C5WqZoHhaRskBXKT4H-7" value="PR01 promotionl ist&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=none;" vertex="1" parent="_GPYYvyDpfEl9rha_GeI-1">
+          <mxGeometry x="220" y="1630" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="87C5WqZoHhaRskBXKT4H-8" value="PromotionList" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=none;" vertex="1" parent="_GPYYvyDpfEl9rha_GeI-1">
+          <mxGeometry x="400" y="1660" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
